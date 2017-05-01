@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<h1>
+  {{title}}
+</h1>
+
+<br> {{channel.name}}
+<br>
+<ul>
+  <li *ngFor="let feed of feeds">
+    <span>{{feed.field1}}</span><span> - </span><span>{{feed.field2}}</span>
+  </li>
+</ul>
